@@ -4,5 +4,6 @@ def decode_message( s: str, p: str) -> bool:
         m,k = 0,0
         star_idx = -1
         match = 0
-        while m<len(s)
+        while m<len(s):
+                i
         return False
