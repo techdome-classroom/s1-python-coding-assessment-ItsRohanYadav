@@ -8,7 +8,7 @@ class Solution:
             for j in range(cols):
                 if grid[i][j] == 'L':
                     total_isles += 1
-                    
+                    dfs
 
         
                     
