@@ -10,7 +10,8 @@ class Solution:
                     total_isles += 1
                     stack = [(i, j)]
                     while stack:
-                        row, col = 
+                        row, col = stack.pop()
+                        if grid[]
 
         
                     
