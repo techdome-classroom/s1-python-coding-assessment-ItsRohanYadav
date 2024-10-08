@@ -8,12 +8,7 @@ class Solution:
             for j in range(cols):
                 if grid[i][j] == 'L':
                     total_isles += 1
-                    stack = [(i, j)]
-                    while stack:
-                        row, col = stack.pop()
-                        if grid[row][col] == 'L':
-                            grid[row][col] = 'W'
-                            for dr, dc i
+                    
 
         
                     
