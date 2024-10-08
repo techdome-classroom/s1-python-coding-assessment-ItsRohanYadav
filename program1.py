@@ -11,7 +11,9 @@ class Solution:
                     stack = [(i, j)]
                     while stack:
                         row, col = stack.pop()
-                        if grid[row][col] == '
+                        if grid[row][col] == 'L':
+                            grid[row][col] = 'W'
+                            for dr, dc i
 
         
                     
