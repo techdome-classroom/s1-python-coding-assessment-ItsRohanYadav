@@ -8,7 +8,7 @@ class Solution:
             if i<0 or i>=rows or j<0 or j>=cols or grid[i][j]=='W':
                         return
                     grid[i][j] = 'W'
-                    dfs(r-1,c)
+                    dfs(i-1,j)
                     dfs
         for i in range(rows):
             for j in range(cols):
