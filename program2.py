@@ -11,4 +11,5 @@ def decode_message( s: str, p: str) -> bool:
                 elif k<len(p) and p[k]=='*':
                         star_idx = k
                         k+=1
+                elif star
         return False
