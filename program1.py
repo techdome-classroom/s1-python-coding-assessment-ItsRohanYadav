@@ -4,7 +4,8 @@ class Solution:
     #    write your code here
         rows, cols =len(grid), len(grid[0])
         total_isles=0
-        fo
+        for i in range(rows):
+            for
         
                     
         return 0 
