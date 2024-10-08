@@ -5,7 +5,9 @@ class Solution:
         rows, cols =len(grid), len(grid[0])
         total_isles=0
         for i in range(rows):
-            for
+            for j in range(cols):
+                if grid[i][j] == 'L':
+                    total_isles += self.dfs(grid, i, j)
         
                     
         return 0 
