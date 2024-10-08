@@ -19,5 +19,5 @@ def decode_message( s: str, p: str) -> bool:
                 else :
                         return False
         while k<len(p) and p[k]=='*':
-                
+                k+=1
         return False
