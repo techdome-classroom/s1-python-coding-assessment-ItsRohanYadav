@@ -9,4 +9,4 @@ class Solution:
                 if grid[i][j] == 'L':
                     total_isles += 1
                     dfs(i, j)
-        return 0 
+        return total_ 
