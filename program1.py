@@ -8,7 +8,8 @@ class Solution:
             for j in range(cols):
                 if grid[i][j] == 'L':
                     total_isles += 1
-                    if i<0 or i>= rows or j<0 or j>= cols or grid[i][j] == '0'
+                    if i<0 or i>= rows or j<0 or j>= cols or grid[i][j] == '0':
+                        
         
                     
         return 0 
