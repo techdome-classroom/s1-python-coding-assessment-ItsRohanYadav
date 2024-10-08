@@ -6,10 +6,7 @@ class Solution:
         total_isles=0
         def dfs(i,j):
             if i<0 or i>=rows or j<0 or j>=cols or grid[i][j]=='W':
-                        return
-                    grid[i][j] = 'W'
-                    dfs(i-1,j)
-                    dfs
+                        
         for i in range(rows):
             for j in range(cols):
                 if grid[i][j] == 'L':
