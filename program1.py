@@ -10,7 +10,8 @@ class Solution:
                     total_isles += 1
                     dfs(i, j)
                     if r<0 or r>=rows or c<0 or c>=cols or grid[i][j]=='W':
-                        
+                        return
+                    
 
         
                     
