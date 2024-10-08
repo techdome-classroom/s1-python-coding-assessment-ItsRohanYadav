@@ -5,7 +5,7 @@ class Solution:
         rows, cols =len(grid), len(grid[0])
         total_isles=0
         def dfs(i,j):
-            if i<0 or i>=rows or c<0 or c>=cols or grid[i][j]=='W':
+            if i<0 or i>=rows or j<0 or j>=cols or grid[i][j]=='W':
                         return
                     grid[i][j] = 'W'
                     dfs(r-1,c)
