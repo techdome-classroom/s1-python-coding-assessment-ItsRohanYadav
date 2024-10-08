@@ -11,7 +11,7 @@ class Solution:
                     stack = [(i, j)]
                     while stack:
                         row, col = stack.pop()
-                        if grid[]
+                        if grid[row][col] == '
 
         
                     
