@@ -5,5 +5,5 @@ def decode_message( s: str, p: str) -> bool:
         star_idx = -1
         match = 0
         while m<len(s):
-                if k<len(p) and (p[k]==s[m] or p[k]==)
+                if k<len(p) and (p[k]==s[m] or p[k]=='?')
         return False
