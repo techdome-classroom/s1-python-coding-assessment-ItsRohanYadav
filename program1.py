@@ -12,7 +12,7 @@ class Solution:
                     if r<0 or r>=rows or c<0 or c>=cols or grid[i][j]=='W':
                         return
                     grid[i][j] = 'W'
-                    dfs
+                    dfs(i, j)
 
         
                     
