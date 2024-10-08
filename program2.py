@@ -18,5 +18,5 @@ def decode_message( s: str, p: str) -> bool:
                         m=match
                 else :
                         return False
-        
+        while k
         return False
