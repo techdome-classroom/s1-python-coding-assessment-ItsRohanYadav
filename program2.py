@@ -15,5 +15,6 @@ def decode_message( s: str, p: str) -> bool:
                 elif star_idx != -1:
                         k = star_idx + 1
                         match += 1
-                        match = 0
+                        m=match
+                else 
         return False
