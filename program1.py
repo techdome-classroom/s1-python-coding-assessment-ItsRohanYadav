@@ -9,6 +9,8 @@ class Solution:
                 if grid[i][j] == 'L':
                     total_isles += 1
                     stack = [(i, j)]
+                    while stack:
+                        row, col = 
 
         
                     
