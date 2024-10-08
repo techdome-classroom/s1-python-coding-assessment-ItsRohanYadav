@@ -7,7 +7,7 @@ class Solution:
         for i in range(rows):
             for j in range(cols):
                 if grid[i][j] == 'L':
-                    total_isles += self.dfs(grid, i, j)
+                    total_isles += 1
         
                     
         return 0 
