@@ -13,6 +13,6 @@ def decode_message( s: str, p: str) -> bool:
                         k+=1
                 elif star_idx != -1:
                         k = star_idx + 1
-                        m = match
-                        
+                        m = match + 1
+                        match = 0
         return False
