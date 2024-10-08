@@ -6,5 +6,7 @@ def decode_message( s: str, p: str) -> bool:
         match = 0
         while m<len(s):
                 if k<len(p) and (p[k]==s[m] or p[k]=='?'):
-                        
+                        m+=1
+                        k+=1
+                elif k<len(p) and p[k]=='*':
         return False
